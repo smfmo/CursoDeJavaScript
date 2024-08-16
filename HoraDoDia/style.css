@@ -1,6 +1,6 @@
 body{
     background: bisque;
-    font: normal 20pt Arial;
+    font: normal 20pt italic;
 }
 
 header{
@@ -15,6 +15,10 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px 10px brown;
+}
+div{
+    text-align: center;
+    padding: 8px;
 }
 
 footer{
