@@ -7,15 +7,15 @@ function carregar(){
     msg.innerHTML = `agora são ${hora} horas`
     if(hora >= 0 && hora < 12){
         //BOM-DIA
-        img.src = '/Ex016/images/manha.png'
+        img.src = '/HoraDoDia/images/manha.png'
         document.body.style.background = '#c17a50'
     }else if(hora >= 12 && hora <= 18 ){
         //BOA-TARDE
-        img.src = '/Ex016/images/tarde.png'
+        img.src = '/HoraDoDia/images/tarde.png'
         document.body.style.background = '#d85946'
     }else{
         //BOA-NOITE
-        img.src = '/Ex016/images/noite.png'
+        img.src = '/HoraDoDia/images/noite.png'
         document.body.style.background = '#485357'
     }
 }
